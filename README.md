@@ -48,6 +48,23 @@ Expert guidance for Django applications using Celery for asynchronous task proce
 - Monitoring and observability (Flower, Prometheus)
 - Production deployment and scaling
 
+### cdrf-expert (Skill)
+
+Expert guidance for Django REST Framework class-based views using [Classy DRF](https://www.cdrf.co). Focuses on choosing the correct DRF view class and override hook with MRO-backed reasoning.
+
+**Use when:**
+- Choosing between `APIView`, generic views, `GenericViewSet`, and `ModelViewSet`
+- Debugging DRF class-based view behavior
+- Identifying where to override (`perform_create`, `perform_update`, `get_queryset`, etc.)
+- Tracing method resolution order and method source class
+- Comparing DRF behavior across versions
+
+**Categories covered:**
+- DRF class selection matrix
+- Request lifecycle and override strategy
+- MRO debugging workflow
+- DRF version comparison workflow
+
 ### django-reviewer (Agent)
 
 Autonomous code review agent that refines Django/Python code for clarity, consistency, and maintainability. Focuses on recently modified code and applies Django best practices without changing functionality.
@@ -108,6 +125,9 @@ Create a new Django model for user profiles
 ```
 ```
 Set up a REST API endpoint with authentication
+```
+```
+Should I override create or perform_create in this DRF ViewSet?
 ```
 ```
 Review this Django view for security issues
