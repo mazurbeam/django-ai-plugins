@@ -1,8 +1,6 @@
 # Django Agent Skills
 
-A collection of skills and agents for AI coding agents specialized in Django backend development. Skills are packaged instructions and references that extend agent capabilities. Agents are autonomous specialists that proactively review and refine code.
-
-Skills follow the [Agent Skills](https://agentskills.io/) format and work with any compatible AI coding agent.
+A collection of skills and agents for AI coding agents specialized in Django backend development.
 
 ## Available Skills & Agents
 
@@ -87,33 +85,34 @@ Autonomous code review agent that refines Django/Python code for clarity, consis
 
 ## Installation
 
-### To install the skills, run:
+### Codex
+
+This repository exposes a local Codex marketplace at:
 
 ```bash
-npx skills add vintasoftware/django-ai-plugins
+.agents/plugins/marketplace.json
 ```
 
-To list available skills before installing:
+Each plugin directory now also includes a Codex manifest at `.codex-plugin/plugin.json`. Use the marketplace file above or the individual plugin manifests when registering these plugins in Codex:
+
+- `django-expert`
+- `django-celery-expert`
+- `cdrf-expert`
+- `django-reviewer`
+
+### Generic Open-Plugin Installer
+
+If you use the community `plugins` CLI, this repository can also be installed from the repo root or GitHub URL:
 
 ```bash
-npx skills add vintasoftware/django-ai-plugins -l
+npx plugins add vintasoftware/django-ai-plugins
 ```
 
-### To install the agents, run:
-
-First, add the marketplace to Claude Code:
-
-```
-/plugin marketplace add vintasoftware/django-ai-plugins
+```bash
+npx plugins add https://github.com/vintasoftware/django-ai-plugins
 ```
 
-Then install the agent plugin:
-
-```
-/plugin install django-reviewer@vintasoftware-django-ai-plugins
-```
-
-You can also browse all available plugins interactively with `/plugin` and navigate to the **Discover** tab.
+As of March 18, 2026, the `plugins` package docs explicitly list Claude Code and Cursor as supported install targets. Treat Codex support through that tool as unverified unless you have confirmed it in your environment.
 
 ## Usage
 
@@ -140,6 +139,8 @@ Use the django-reviewer agent to review my recent changes
 
 Each plugin contains either skills or agents:
 
+- **Codex manifest** (`.codex-plugin/plugin.json`) — Codex plugin metadata
+- **Claude manifest** (`.claude-plugin/plugin.json`) — Claude metadata
 - **Skills** (`skills/SKILL.md`) — Instructions and reference documentation loaded on-demand
 - **Agents** (`agents/<name>.md`) — Autonomous specialists that proactively review and refine code
 
@@ -152,6 +153,10 @@ To use both together:
 1. Install the django-ai-boost MCP server following its documentation
 2. Install this skill using the instructions above
 3. The skills will leverage the tools provided by the MCP server for enhanced Django development capabilities
+
+## Miscellaneous
+
+Skills follow the [Agent Skills](https://agentskills.io/) format and work with any compatible AI coding agent.
 
 ## License
 

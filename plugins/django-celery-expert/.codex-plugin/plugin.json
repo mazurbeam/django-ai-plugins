@@ -1,0 +1,37 @@
+{
+  "name": "django-celery-expert",
+  "version": "1.0.0",
+  "description": "Django and Celery best practices for asynchronous task processing in Codex.",
+  "author": {
+    "name": "Vinta Software",
+    "email": "hello@vinta.com.br",
+    "url": "https://www.vinta.com.br/"
+  },
+  "homepage": "https://github.com/vintasoftware/django-ai-plugins",
+  "repository": "https://github.com/vintasoftware/django-ai-plugins",
+  "license": "MIT",
+  "keywords": [
+    "django",
+    "celery",
+    "async",
+    "tasks"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Django Celery Expert",
+    "shortDescription": "Celery patterns for Django in Codex.",
+    "longDescription": "Expert guidance for background task design, worker configuration, retries, scheduling, observability, and production Celery deployments in Django projects.",
+    "developerName": "Vinta Software",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/vintasoftware/django-ai-plugins",
+    "defaultPrompt": [
+      "Create a Celery task with retry and backoff.",
+      "Set up Celery Beat for scheduled reports.",
+      "Review this task for idempotency risks."
+    ]
+  }
+}

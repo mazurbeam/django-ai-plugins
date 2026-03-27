@@ -1,0 +1,37 @@
+{
+  "name": "cdrf-expert",
+  "version": "1.0.0",
+  "description": "Expert guidance for DRF class-based views and override hooks in Codex.",
+  "author": {
+    "name": "Vinta Software",
+    "email": "hello@vinta.com.br",
+    "url": "https://www.vinta.com.br/"
+  },
+  "homepage": "https://github.com/vintasoftware/django-ai-plugins",
+  "repository": "https://github.com/vintasoftware/django-ai-plugins",
+  "license": "MIT",
+  "keywords": [
+    "django-rest-framework",
+    "drf",
+    "cdrf",
+    "api"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CDRF Expert",
+    "shortDescription": "DRF class and override guidance for Codex.",
+    "longDescription": "Helps choose the correct Django REST Framework class-based view, trace request lifecycle and MRO, and select the safest override hook.",
+    "developerName": "Vinta Software",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/vintasoftware/django-ai-plugins",
+    "defaultPrompt": [
+      "Should this be APIView or ModelViewSet?",
+      "Which hook should I override: create or perform_create?",
+      "Trace this DRF method through the MRO."
+    ]
+  }
+}
