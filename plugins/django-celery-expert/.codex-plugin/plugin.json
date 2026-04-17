@@ -7,8 +7,8 @@
     "email": "hello@vinta.com.br",
     "url": "https://www.vinta.com.br/"
   },
-  "homepage": "https://github.com/vintasoftware/django-ai-plugins",
-  "repository": "https://github.com/vintasoftware/django-ai-plugins",
+  "homepage": "https://github.com/mazurbeam/django-ai-plugins",
+  "repository": "https://github.com/mazurbeam/django-ai-plugins",
   "license": "MIT",
   "keywords": [
     "django",
@@ -27,7 +27,7 @@
       "Interactive",
       "Write"
     ],
-    "websiteURL": "https://github.com/vintasoftware/django-ai-plugins",
+    "websiteURL": "https://github.com/mazurbeam/django-ai-plugins",
     "defaultPrompt": [
       "Create a Celery task with retry and backoff.",
       "Set up Celery Beat for scheduled reports.",

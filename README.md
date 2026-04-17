@@ -1,5 +1,7 @@
 # Django Agent Skills
 
+> Forked from [vintasoftware/django-ai-plugins](https://github.com/vintasoftware/django-ai-plugins).
+
 A collection of skills and agents for AI coding agents specialized in Django backend development.
 
 ## Available Skills & Agents
@@ -105,11 +107,11 @@ Each plugin directory now also includes a Codex manifest at `.codex-plugin/plugi
 If you use the community `plugins` CLI, this repository can also be installed from the repo root or GitHub URL:
 
 ```bash
-npx plugins add vintasoftware/django-ai-plugins
+npx plugins add mazurbeam/django-ai-plugins
 ```
 
 ```bash
-npx plugins add https://github.com/vintasoftware/django-ai-plugins
+npx plugins add https://github.com/mazurbeam/django-ai-plugins
 ```
 
 As of March 18, 2026, the `plugins` package docs explicitly list Claude Code and Cursor as supported install targets. Treat Codex support through that tool as unverified unless you have confirmed it in your environment.

@@ -7,8 +7,8 @@
     "email": "hello@vinta.com.br",
     "url": "https://www.vinta.com.br/"
   },
-  "homepage": "https://github.com/vintasoftware/django-ai-plugins",
-  "repository": "https://github.com/vintasoftware/django-ai-plugins",
+  "homepage": "https://github.com/mazurbeam/django-ai-plugins",
+  "repository": "https://github.com/mazurbeam/django-ai-plugins",
   "license": "MIT",
   "keywords": [
     "django",
@@ -26,7 +26,7 @@
       "Agent",
       "Review"
     ],
-    "websiteURL": "https://github.com/vintasoftware/django-ai-plugins",
+    "websiteURL": "https://github.com/mazurbeam/django-ai-plugins",
     "defaultPrompt": [
       "Review my recent Django changes for anti-patterns.",
       "Check this queryset for performance regressions.",

@@ -8,7 +8,7 @@ A Claude Code plugin providing expert guidance for Django applications using Cel
 
 ```bash
 # Add the marketplace
-/plugin marketplace add vintasoftware/django-ai-plugins
+/plugin marketplace add mazurbeam/django-ai-plugins
 
 # Install the plugin
 /plugin install django-celery-expert@django-ai-plugins
@@ -18,7 +18,7 @@ A Claude Code plugin providing expert guidance for Django applications using Cel
 
 ```bash
 # Clone the repository
-git clone https://github.com/vintasoftware/django-ai-plugins.git
+git clone https://github.com/mazurbeam/django-ai-plugins.git
 
 # Add local marketplace
 cd django-ai-plugins

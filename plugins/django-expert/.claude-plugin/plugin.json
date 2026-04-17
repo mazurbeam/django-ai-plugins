@@ -4,8 +4,8 @@
   "description": "Comprehensive Django backend development guidelines and best practices. Expert guidance for models, views, templates, DRF, testing, and deployment.",
   "author": {
     "name": "Vinta Software",
-    "url": "https://github.com/vintasoftware"
+    "url": "https://github.com/mazurbeam"
   },
-  "repository": "https://github.com/vintasoftware/django-ai-plugins",
+  "repository": "https://github.com/mazurbeam/django-ai-plugins",
   "license": "MIT"
 }

@@ -4,8 +4,8 @@
   "description": "Expert guidance for Django REST Framework class-based views using Classy DRF (cdrf.co). Helps choose the right DRF generic/viewset class and override methods safely.",
   "author": {
     "name": "Vinta Software",
-    "url": "https://github.com/vintasoftware"
+    "url": "https://github.com/mazurbeam"
   },
-  "repository": "https://github.com/vintasoftware/django-ai-plugins",
+  "repository": "https://github.com/mazurbeam/django-ai-plugins",
   "license": "MIT"
 }

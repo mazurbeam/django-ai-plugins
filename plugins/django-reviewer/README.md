@@ -65,4 +65,4 @@ MIT @ Vinta Software
 ## Support
 
 For issues, questions, or feature requests:
-- GitHub Issues: https://github.com/vintasoftware/django-ai-plugins/issues
+- GitHub Issues: https://github.com/mazurbeam/django-ai-plugins/issues

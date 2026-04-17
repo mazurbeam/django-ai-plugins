@@ -7,8 +7,8 @@
     "email": "hello@vinta.com.br",
     "url": "https://www.vinta.com.br/"
   },
-  "homepage": "https://github.com/vintasoftware/django-ai-plugins",
-  "repository": "https://github.com/vintasoftware/django-ai-plugins",
+  "homepage": "https://github.com/mazurbeam/django-ai-plugins",
+  "repository": "https://github.com/mazurbeam/django-ai-plugins",
   "license": "MIT",
   "keywords": [
     "django-rest-framework",
@@ -27,7 +27,7 @@
       "Interactive",
       "Write"
     ],
-    "websiteURL": "https://github.com/vintasoftware/django-ai-plugins",
+    "websiteURL": "https://github.com/mazurbeam/django-ai-plugins",
     "defaultPrompt": [
       "Should this be APIView or ModelViewSet?",
       "Which hook should I override: create or perform_create?",
